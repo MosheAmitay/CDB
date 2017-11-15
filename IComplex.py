@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>cdb_draft/README (1).md at master · MosheAmitay/cdb_draft</title>
+  <title>cdb_draft/IComplex.py at master · MosheAmitay/cdb_draft</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -36,10 +36,10 @@
     <meta content="https://avatars2.githubusercontent.com/u/27912872?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="MosheAmitay/cdb_draft" property="og:title" /><meta content="https://github.com/MosheAmitay/cdb_draft" property="og:url" /><meta content="Contribute to cdb_draft development by creating an account on GitHub." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE1ODE5MDIwOjMzMTdlYmE0NWVmYWI1MTJlZGY0NjUwMjU3MWQwNGEzYzk4NDY2MzIwYTM4MDk1ZDAwODZiY2UzMWNiNDcyNGI=--a8f47b174d03a1dda100659eb71c91c3e445ce91">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE1ODE5MDIwOmZhODJjNjZlODcxOWJlNDgyZWQ4MWM2YTFhZDQxNGExMDAyNWI5NDgyN2MzMzJjZDkxNzkwYWUzNDI1Y2QwNzc=--06ee74a617c188293231dfc3024b47cc1b89f681">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="F540:6CCE:20F197:38D7AD:5A0C0A4D" data-pjax-transient>
+  <meta name="request-id" content="F513:6CDA:3062D8:57D21B:5A0C0A28" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="F540:6CCE:20F197:38D7AD:5A0C0A4D" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="27912872" name="octolytics-actor-id" /><meta content="MosheAmitay" name="octolytics-actor-login" /><meta content="72fdf705913ba3651994fc17b666cc8a400b3f99f920941b430cf97a38975a61" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="F513:6CDA:3062D8:57D21B:5A0C0A28" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="27912872" name="octolytics-actor-id" /><meta content="MosheAmitay" name="octolytics-actor-login" /><meta content="72fdf705913ba3651994fc17b666cc8a400b3f99f920941b430cf97a38975a61" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,7 +63,7 @@
   <meta name="user-login" content="MosheAmitay">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZmVhNDcyNzU1NWU2MTQyZWM3NWNhYzg0ZmY3NDUxOTM1MDYzMDUyZmRkMDMwYjdlZmE3NTYxNTJkZTZkNDVlNHx7InJlbW90ZV9hZGRyZXNzIjoiNzkuMTc3LjEwNC4yMDIiLCJyZXF1ZXN0X2lkIjoiRjU0MDo2Q0NFOjIwRjE5NzozOEQ3QUQ6NUEwQzBBNEQiLCJ0aW1lc3RhbXAiOjE1MTA3Mzg1MDksImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="MWJkMTM3MjU5MDk5ZTI1Mjc5ZDYxNDIzZWMwMjhkNDI5YTMxYzczMDIwZWFjY2IwZGY4ODU0NmI5NGZhNGQ0OHx7InJlbW90ZV9hZGRyZXNzIjoiNzkuMTc3LjEwNC4yMDIiLCJyZXF1ZXN0X2lkIjoiRjUxMzo2Q0RBOjMwNjJEODo1N0QyMUI6NUEwQzBBMjgiLCJ0aW1lc3RhbXAiOjE1MTA3Mzg0NzksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -80,7 +80,7 @@
   <meta content="27912872" name="octolytics-dimension-user_id" /><meta content="MosheAmitay" name="octolytics-dimension-user_login" /><meta content="107863256" name="octolytics-dimension-repository_id" /><meta content="MosheAmitay/cdb_draft" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="107863256" name="octolytics-dimension-repository_network_root_id" /><meta content="MosheAmitay/cdb_draft" name="octolytics-dimension-repository_network_root_nwo" /><meta content="true" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/MosheAmitay/cdb_draft/blob/master/README%20(1).md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/MosheAmitay/cdb_draft/blob/master/IComplex.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -127,7 +127,7 @@
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/search" class="js-site-search-form" data-scoped-search-url="/MosheAmitay/cdb_draft/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/MosheAmitay/cdb_draft/blob/master/README%20(1).md" class="header-search-scope no-underline">This repository</a>
+        <a href="/MosheAmitay/cdb_draft/blob/master/IComplex.py" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -250,7 +250,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FUSJRKc7erHv2pG87ld2Pka3a3zS7yoJZ5/RPWjLQmhOGc2YoSE681875cvPYx66bBmhy46zuYiUWrNf+uopFg==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="aeuYYigZyjzMVXjJzEc8byiNRZEp9hZopqT8jrCVRqoytty+LgOKfny0DL7tc1TrAiOPJnWqhelVYZ7sIrQt1A==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -261,7 +261,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8iS1uH3/1kOarDKRv22kNG4201RC9Yq4STbcBktUv/ipefFke+WWASpNRuaeWcywRJgZ4x6pGTm6875k2XXUhg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="KqbdnBoyujTlncJTEr11i0fbboaQxZ6uVIWMWHoYW7tx+5lAHCj6dlV8tiQziR0PbXWkMcyZDS+nQO466DkwxQ==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -296,7 +296,7 @@
 
         <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IUj2BjtLrWS9oxnPpCSq912IdcevQKI/71bvRmwaqpXT71iu5SGaEGpyFyACcvesjzehqmN+JThGtl2lzHt3+Q==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="107863256" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5CTGxh6ZVVcRBkocrkGFoNxxDrJla0PXW1wwYw7PTyYWg2huwPNiI8bXRPMIF9j7Ds7a36lVxNDyvIKArq6SSg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="107863256" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/MosheAmitay/cdb_draft/subscription"
@@ -376,7 +376,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/bvf3nTMCm1350Wn9yZLrVOMd6Xiq7zOd2L12+iVoJq2DZ2AbVMPufmLP5SbswVgl6Ors5aEHtOHaMkAwVIIrw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JqbsHbZ6bvZwrhlcFKURdkTkMCfUzdRzUSYwFRh+QlptEK5Dr+VrIv7CY294MF+7gMvsMaDidm6hLAzOMbnqbw==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -391,7 +391,7 @@
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Peba8PpO5ZpnXCG5hVCQ02y/fBoMQ968PeOhNkLz5OlvfxuM+Fxux8Q+BIn1NYHUINZmBuS6cfFc3JuCaCvw/Q==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="iuG6OAg0XmgY0D6OEhtRAj5bYW8CGkohgpysptttAG/YeHtECibVNbuyG75ifkAFcjJ7c+rj5Wzjo5YS8bUUew==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -410,7 +410,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4Pv/ZjypM4pmsjuhkbJQME1YYbHpm1BR70ZvgNl9f6+ZC9E2VwtGnEW8DVv8eCVUKQg1yeSBDvEMcB6PtsExDw==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bkxmuN9MK9wlDq0bSJynJc0iUxzjL3Ds/OD4EuRyReYXvEjotO5eygYAm+ElVtJBqXIHZO41Lkwf1okdi84LRg==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -494,9 +494,9 @@
   <div class="repository-content">
 
     
-  <a href="/MosheAmitay/cdb_draft/blob/c2ab8296ce4f5b79cb0ceb78a9a49eae0703eb42/README%20(1).md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/MosheAmitay/cdb_draft/blob/c2ab8296ce4f5b79cb0ceb78a9a49eae0703eb42/IComplex.py" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:bdea65f141a9a371f21727b4c7bf929d -->
+  <!-- blob contrib key: blob_contributors:v21:90d82f31eabe7061f50286e8a28f28fb -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -538,7 +538,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/MosheAmitay/cdb_draft/blob/master/README%20(1).md"
+               href="/MosheAmitay/cdb_draft/blob/master/IComplex.py"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -549,7 +549,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="t8DUVaQt/wq1hBe12bGgv6ZRIELsdHlCzCr6mqLfIqXPZbXbQYFr36m+tss0gV5Yq5OjrwAdCCZO3FFg9e2fSQ==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ijTmpnLLRC2NQrgHGIpNWdjSiEJdRzAssaQpgwLfeL/ykYcol2fQ+JF4GXn1urO+1RALr7EuQUgzUoJ5Ve3FUw==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -557,7 +557,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="README%20(1).md">
+            <input type="hidden" name="path" id="path" value="IComplex.py">
 </form>
       </div>
 
@@ -584,53 +584,30 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/MosheAmitay/cdb_draft"><span>cdb_draft</span></a></span></span><span class="separator">/</span><strong class="final-path">README (1).md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/MosheAmitay/cdb_draft"><span>cdb_draft</span></a></span></span><span class="separator">/</span><strong class="final-path">IComplex.py</strong>
     </div>
   </div>
 
 
-  
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/MosheAmitay/cdb_draft/commit/74a8d0b46f46b53510e11c84ec643480ce614db9" data-pjax>
-          74a8d0b
-        </a>
-        <relative-time datetime="2017-10-22T12:41:44Z">Oct 22, 2017</relative-time>
-      </span>
-      <div>
-        <img alt="@MosheAmitay" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/27912872?s=40&amp;v=4" width="20" />
-        <a href="/MosheAmitay" class="user-mention" rel="author">MosheAmitay</a>
-          <a href="/MosheAmitay/cdb_draft/commit/74a8d0b46f46b53510e11c84ec643480ce614db9" class="message" data-pjax="true" title="Add files via upload">Add files via upload</a>
-      </div>
+  <include-fragment class="commit-tease" src="/MosheAmitay/cdb_draft/contributors/master/IComplex.py">
+    <div>
+      Fetching contributors&hellip;
+    </div>
 
     <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
+      <img alt="" class="loader-loading float-left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
     </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@MosheAmitay" height="24" src="https://avatars0.githubusercontent.com/u/27912872?s=48&amp;v=4" width="24" />
-            <a href="/MosheAmitay">MosheAmitay</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
+</include-fragment>
 
   <div class="file">
     <div class="file-header">
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/MosheAmitay/cdb_draft/raw/master/README%20(1).md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/MosheAmitay/cdb_draft/blame/master/README%20(1).md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/MosheAmitay/cdb_draft/commits/master/README%20(1).md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/MosheAmitay/cdb_draft/raw/master/IComplex.py" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/MosheAmitay/cdb_draft/blame/master/IComplex.py" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/MosheAmitay/cdb_draft/commits/master/IComplex.py" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -640,12 +617,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/edit/master/README%20(1).md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="V0BHnYWdEOd+FugxPzbrUh+cQh/NNOhQtTl0GcVewmVGKNp1JBCs87lU29LKuLEtl64ElInqL8GlrH34801f5A==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/edit/master/IComplex.py" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lpfbYgkBN2CzVJrHqvteyefKWFvRWuQTBOUQe9pDsiDdHIuEDrIN/EzpSDKB+wtIRiXZivrkqVJyuhB8ofalhQ==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/delete/master/README%20(1).md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="uF/X3WcXNV38KGyLYGf7fyLxnyrAaumZUO88LTw/GMrKqKFhDh2Gp91kMECSG0B6WHyr+JOIAsSuwQX/uhQZrw==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/MosheAmitay/cdb_draft/delete/master/IComplex.py" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="MWszbhztaSNhb4THLNHpNFAz1ryWD86Xz8rEWnl8bNS2pZuPlQOvVf60VHzkOdJ9h9npVCLFQtB+6f7iaWapnA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -653,199 +630,284 @@
 </form>  </div>
 
   <div class="file-info">
-      210 lines (170 sloc)
+      61 lines (50 sloc)
       <span class="file-info-divider"></span>
-    8.04 KB
+    1.76 KB
   </div>
 </div>
 
     
-  <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a href="#complexdb" aria-hidden="true" class="anchor" id="user-content-complexdb"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ComplexDB</h1>
-<p>ComplexDB is a powerful tool, based on Python 3 and above, which enables searching heterodimers' complexes and antibodies' complexes with the RCSB Protein Data Bank (PDB). In addition, it's uniqueness is the ability to find the proteins that compound the chain's complex.
-These functions use the PyPdB package.</p>
-<p>The search is done according to specific criteria, some is determined by the user, and some-are default.
-The finding is done by BLAST search. The user can filter the result, with specific criteria.</p>
-<p>In addition to the name of the separate proteins, one can get the protein's length,the protein's sequence and the protein's identity to the chain of interest.</p>
-<h2><a href="#installation-requirements" aria-hidden="true" class="anchor" id="user-content-installation-requirements"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation Requirements</h2>
-<p>In order to use the ComplexDB, install the PyPDB package:  <a href="https://github.com/williamgilpin/pypdb">PyPDB</a></p>
-<h2><a href="#usage" aria-hidden="true" class="anchor" id="user-content-usage"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
-<h3><a href="#search" aria-hidden="true" class="anchor" id="user-content-search"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Search</h3>
-<p>For searching, one must insert list of PDB entries, and search criteria, like number of chains in the complex and length of the chain. In antibody searching, one must supply also the maximal number of chain in the complex.</p>
-<h4><a href="#complexes" aria-hidden="true" class="anchor" id="user-content-complexes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Complexes:</h4>
-<p>Get the complexes from a list of proteins (pdb codes), with given conditions and range</p>
-<pre><code>Parameters:
-----------
-pdbs : list
-   A list where each value is a 4 character string giving a pdb entry of interest
-num_chains: int, #condition
-   The number of chains that the complex is constructed of.
-   Gets num_chains=2 as default
-length_chains: int, #condition
-   The minimum length of the chains that the complex is constructed of.
-   Gets num_chains=30 as default
-title_flag: bool, #condition
-   A boolean flag that define whether or not to check if the title of the PDB entry contains the words "Complex" or "Bound"
-   {Which is probably a complex)
-   Gets True as default
-counter: int, #range
-   The bottom edge of the range 
-   Gets counter=0 as default
-counter_end: int, #range
-   The top edge of the range 
-   Gets counter=0  as default in order to be replaced with len(pdbs) in the function
-Returns
--------
-complexes : list
-   A list of potential string PDB 4 charachters entry according to the conditions that were given
-errors : list
-   A list of errors string PDB 4 charachters entry
-Examples
---------
-s=Search()
-pdb=s.get_list_from_file()[0:500]
-s.search_complexes(pdbs)
-</code></pre>
-<h4><a href="#antibodies" aria-hidden="true" class="anchor" id="user-content-antibodies"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Antibodies:</h4>
-<p>Get the antibodies from a list of proteins (pdb codes), with given conditions and range</p>
-<pre><code>Parameters:
-----------
-pdbs : list
-	A list where each value is a 4 character string giving a pdb entry of interest
-num_chains_min: int, #condition
-	The minimum number of chains that the antibody is constructed of.
-	Gets num_chains=2 as default
-num_chains_max: int, #condition
-	The maximal number of chains that the antibody is constructed of.
-	Gets num_chains=2 as default
- length_chains: int, #condition
-	   The minimum length of the chains that the complex is constructed of.
-	   Gets num_chains=30 as default
-counter: int, #range
-	The bottom edge of the range 
-	Gets counter=0 as default
-counter_end: int, #range
-	The top edge of the range 
-	Gets counter=0  as default in order to be replaced with len(pdbs) in the function
-Returns
--------
-antibodies : list
-	A list of potential antibodies in string PDB 4 charachters entry according to the conditions that were given
-errors : list
-	A list of errors string PDB 4 charachters entry
-Examples
---------
-s=Search()
-pdb=s.get_list_from_file()[0:500]
-s.search_complexes(pdbs)
-</code></pre>
-<h3><a href="#finding-separate-proteins" aria-hidden="true" class="anchor" id="user-content-finding-separate-proteins"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Finding separate proteins:</h3>
-<p>For finding the separate proteins, one must supply the name of complex of interest (PDB code, 4 letters)</p>
-<h4><a href="#complexes-1" aria-hidden="true" class="anchor" id="user-content-complexes-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Complexes:</h4>
-<p>Find the separate proteins' names:</p>
-<pre><code>Returns
--------
-prot_names : list
-	A list of PDB 4 characters entry, each represents seperate protein of chain.
 
-Examples
---------
-c=Complex("1A0O")
-c.find_seperate_proteins()
-&gt;&gt;&gt;['3CHY', '1FWP']
-</code></pre>
-<p>The details of the  separate proteins of a complex</p>
-<pre><code>Returns
--------
-self.__sep_prot_details : dictionary
-   A dictionary, where key is the seperate protein 4 charachters PDB name 
-   and value is tuple with the key's identity to the complex,sequence,flag-whether the seperate protein was found by accession number of the complex or not
+  <div itemprop="text" class="blob-wrapper data type-python">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">from</span> pypdb.pypdb <span class="pl-k">import</span> <span class="pl-k">*</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">IComplex</span>:</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;&quot;&quot;</span>resolution =0</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    pub_year =&quot;&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    pdb_id=&quot;&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    all_info=&quot;&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    description=<span class="pl-pds">&quot;&quot;&quot;</span></span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-c1">__init__</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>,<span class="pl-smi">name_pdb</span>):</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span>Initiating a Complex object, with given PDB code</span></td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-s">           Parameters</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-s">           ----------</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-s">           name_pdb : string</span></td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-s">               A 4 character string giving a pdb entry of interest</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-s">           <span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">self</span>.pdb_id<span class="pl-k">=</span>name_pdb</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">self</span>.all_info<span class="pl-k">=</span>get_all_info(<span class="pl-c1">self</span>.pdb_id)</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">self</span>.description<span class="pl-k">=</span>describe_pdb(<span class="pl-c1">self</span>.pdb_id)</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">self</span>.resolution<span class="pl-k">=</span><span class="pl-c1">self</span>.set_resolution()</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">self</span>.pub_year<span class="pl-k">=</span><span class="pl-c1">self</span>.description[<span class="pl-s"><span class="pl-pds">&#39;</span>release_date<span class="pl-pds">&#39;</span></span>][<span class="pl-c1">0</span>:<span class="pl-c1">4</span>]</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">set_resolution</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>,<span class="pl-smi">description</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>):</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span>Set the resolution of complex, if possible</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          Parameters:</span></td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          ----------</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          description : string</span></td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-s">              Get a description of proteien.        </span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-s">              Get description=&quot;&quot; as default, to use self.description</span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          Returns</span></td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          -------</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          resolution : string</span></td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-s">              A string represents the resolution of given PDB entry</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s">         <span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">        resolution<span class="pl-k">=</span><span class="pl-c1">0</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> description<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>:</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">            description<span class="pl-k">=</span><span class="pl-c1">self</span>.description</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">try</span>:</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> description[<span class="pl-s"><span class="pl-pds">&#39;</span>expMethod<span class="pl-pds">&#39;</span></span>] <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>X-RAY DIFFRACTION<span class="pl-pds">&#39;</span></span>:</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">                resolution <span class="pl-k">=</span> description[<span class="pl-s"><span class="pl-pds">&#39;</span>resolution<span class="pl-pds">&#39;</span></span>]</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> resolution</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">except</span>:</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> resolution</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-c1">__str__</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&#39;&#39;&#39;</span>Print function</span></td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          Examples</span></td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          --------</span></td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          c=IComplex(&quot;1A0O&quot;)</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          print (c)</span></td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          &gt;&gt;&gt;The Complex: 1A0O (Publication Year: 1998, Resolution: 2.95)</span></td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        <span class="pl-pds">&#39;&#39;&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">        details <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>The Complex: <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> <span class="pl-c1">self</span>.pdb_id <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span> (<span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Publication Year: <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> <span class="pl-c1">self</span>.pub_year <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span>, Resolution: <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> <span class="pl-c1">self</span>.resolution <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span>)<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> details</td>
+      </tr>
+</table>
 
-Examples
---------
-c.get_proteins_details()
-&gt;&gt;&gt;{'3CHY': (89, 'ADKELKFLVVDDFSTMRRIVRNLLKELGFNNVEEAEDGVDALNKLQAGGYGFVISDWNMPNMDGLELLKTIRADGAMSALPVLMVTAEAKKENIIAAAQAGASGYVVKPFTAATLEEKLNKIFEKLGM', False), '1FWP': (90, 'RQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTR', False)}
-</code></pre>
-<p>Print the Complex, and it's details:</p>
-<pre><code>Examples
---------
-c=Complex("1A0O")
-print (c)
-&gt;&gt;&gt;
-%%%%%%The Complex: 1A0O (Publication Year: 1998, Resolution: 2.95)%%%%%%
-%%% Protein: 3CHY %%%
--Protein Name: CHEY
--Protein Accession Number: P0AE67
--Protein Chains: ACEG
--Protein Chain Length: 128
--Protein Sequence: ADKELKFLVVDDFSTMRRIVRNLLKELGFNNVEEAEDGVDALNKLQAGGYGFVISDWNMPNMDGLELLKTIRADGAMSALPVLMVTAEAKKENIIAAAQAGASGYVVKPFTAATLEEKLNKIFEKLGM
--Protein Identity to Complex's Chain/s: 89
--Protein Resolution: 1.66
--Protein Publication Year: 1993
-%%% Protein: 1FWP %%%
--Protein Name: CHEA
--Protein Accession Number: P07363
--Protein Chains: BDFH
--Protein Chain Length: 134
--Protein Sequence: RQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTR
--Protein Identity to Complex's Chain/s: 90
--Protein Resolution: 0
--Protein Publication Year: 1996
-</code></pre>
-<h4><a href="#antibodies-1" aria-hidden="true" class="anchor" id="user-content-antibodies-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Antibodies:</h4>
-<p>Find the separate proteins' names:</p>
-<pre><code>Returns
--------
-prot_names : list
-	A list of PDB 4 charachters entry, each represents seperate protein of chain.
+  <div class="BlobToolbar position-absolute js-file-line-actions dropdown js-menu-container js-select-menu d-none" aria-hidden="true">
+    <button class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1 dropdown-toggle js-menu-target" id="js-file-line-action-button" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Inline file action toolbar" aria-controls="inline-file-actions">
+      <svg aria-hidden="true" class="octicon octicon-kebab-horizontal" height="16" version="1.1" viewBox="0 0 13 16" width="13"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>
+    </button>
+    <div class="dropdown-menu-content js-menu-content" id="inline-file-actions">
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><a class="js-zeroclipboard dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</a></li>
+        <li><a class="js-zeroclipboard dropdown-item" id= "js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</a></li>
+        <li><a href="/MosheAmitay/cdb_draft/blame/c2ab8296ce4f5b79cb0ceb78a9a49eae0703eb42/IComplex.py" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
+          <li><a href="/MosheAmitay/cdb_draft/issues/new" class="dropdown-item" id="js-new-issue">Open new issue</a></li>
+      </ul>
+    </div>
+  </div>
 
-Examples
---------
-b=Antibody("3TVM")
-b.find_seperate_proteins_anti()
-&gt;&gt;&gt;['4ZAK', '3TVM']
-</code></pre>
-<p>The details of the  separate proteins of a complex</p>
-<pre><code>Returns the details of the  seperate proteins of complex, refers to the complex
-
-Returns
--------
-self.__sep_prot_details : dictionary
-   A dictionary, where key is the seperate protein 4 charachters PDB name 
-   and value is tuple with the key's identity to the complex,sequence,flag-whether the seperate protein was found by accession number of the complex or not
-
-Examples
---------
-a=Antibody("1P2C")  
-	  
-a.get_proteins_details()
-&gt;&gt;&gt;{'4LZT': (100, 'KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRCKGTDVQAWIRGCRL', False), '2Q76': (89.0, 'EVQLEQSGAELMKPGASVKISCKATGYTFTTYWIEWIKQRPGHSLEWIGEILPGSDSTYYNEKVKGKVTFTADASSNTAYMQLSSLTSEDSAVYYCARGDGFYVYWGQGTTLTVSSASTTPPSVYPLAPGSAAQTNSMVTLGCLVKGYFPEPVTVTWNSGSLSSGVHTFPAVLQSDLYTLSSSVTVPSSPWPSETVTCNVAHPASSTKVDKKIVPRDIELTQSPATLSVTPGDSVSLSCRASQSISNNLHWYQQKSHESPRLLIKYTSQSMSGIPSRFSGSGSGTDFTLSINSVETEDFGVYFCQQSGSWPRTFGGGTKLDIKRADAAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVLNSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRN', False)}
-</code></pre>
-<p>Print the Antibody, and it's details:</p>
-<pre><code>a=Antibody("1P2C")
-print (a)
-&gt;&gt;&gt;
-%%%%%%The Complex: 1P2C (Publication Year: 2004, Resolution: 2.00)%%%%%%
-%%% Protein: 4LZT %%%
--Protein Name: Lysozyme C
--Protein Accession Number: P00698
--Protein Chains: CF
--Protein Chain Length: 129
--Protein Sequence: KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRCKGTDVQAWIRGCRL
--Protein Identity to Complex's Chain/s: 100
--Protein Resolution: 0.95
--Protein Publication Year: 1998
-%%% Antibody: 2Q76 %%%
--Antibody Name: ,heavy chain VH+CH1 anti-lysozyme antibody F10.6.6,light chain anti-lysozyme antibody F10.6.6
--Antibody Accession Number: ,P01868,P01837
--Antibody Chains: BEAD
--Antibody Chain Length: 430
--Antibody Sequence: EVQLEQSGAELMKPGASVKISCKATGYTFTTYWIEWIKQRPGHSLEWIGEILPGSDSTYYNEKVKGKVTFTADASSNTAYMQLSSLTSEDSAVYYCARGDGFYVYWGQGTTLTVSSASTTPPSVYPLAPGSAAQTNSMVTLGCLVKGYFPEPVTVTWNSGSLSSGVHTFPAVLQSDLYTLSSSVTVPSSPWPSETVTCNVAHPASSTKVDKKIVPRDIELTQSPATLSVTPGDSVSLSCRASQSISNNLHWYQQKSHESPRLLIKYTSQSMSGIPSRFSGSGSGTDFTLSINSVETEDFGVYFCQQSGSWPRTFGGGTKLDIKRADAAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVLNSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRN
--Antibody Identity to Complex's Chain/s: 89.0
--Antibody Resolution: 2.00
--Antibody Publication Year: 2008
-</code></pre>
-</article>
   </div>
 
   </div>
@@ -870,7 +932,7 @@ print (a)
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.17386s from unicorn-1374631441-zqx3k">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.14653s from unicorn-1876047378-6252t">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
